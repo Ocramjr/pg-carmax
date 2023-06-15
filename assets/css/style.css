@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+}
+
+.background {
+    height: 100%;
+    left: 50%;
+    object-fit: cover;
+    object-position: 25% 37px;
+    position: absolute;
+    transform: scale(115%) translate(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+.cabecalho {
+    box-sizing: border-box;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho .header-link {
+    text-decoration: none;
+    color: inherit;
+    padding: 8px;
+    border: 2px solid transparent;
+}
+
+.cabecalho .header-logo {
+    width: 105px;
+    height: 24px;
+}
+
+.span-hidden {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+.cabecalho .navega {
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.cabecalho .navega .itensnavega {
+    display: flex;
+    gap: 20px;
+    padding: 8px;
+    font-size: 16px;
+    font-family: Lato, Corbel, ‘Lucida Grande’, ‘Lucida Sans Unicode’, ‘DejaVu Sans’, ‘Bitstream Vera Sans’, ‘Liberation Sans’, Verdana, ‘Verdana Ref’, sans-serif;
+}
+
+.shop, .trade, .finance, .more {
+    text-decoration: none;
+    color: inherit;
+}
