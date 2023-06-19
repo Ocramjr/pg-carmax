@@ -2,6 +2,7 @@
     padding: 0;
 }
 
+
 .background {
     height: 100%;
     left: 50%;
@@ -55,7 +56,7 @@
 
 .cabecalho .navega .itensnavega {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     padding: 8px;
     font-size: 16px;
     font-family: Lato, Corbel, ‘Lucida Grande’, ‘Lucida Sans Unicode’, ‘DejaVu Sans’, ‘Bitstream Vera Sans’, ‘Liberation Sans’, Verdana, ‘Verdana Ref’, sans-serif;
@@ -64,4 +65,33 @@
 .shop, .trade, .finance, .more {
     text-decoration: none;
     color: inherit;
+}
+
+.cabecalho .navega2 {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.cabecalho .local {
+    display: flex;
+    gap: 5px;
+    justify-self: right;
+}
+
+.cabecalho .local .local1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho .local .local2 {
+    display: flex;
+}
+
+.cabecalho .local .local1 .textmini {
+    font-size: 12px;
+}
+
+.local1, .lovebutton, .personbutton {
+    margin-right: 20px;
 }
