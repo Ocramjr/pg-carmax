@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     padding: 0 120px;
+    margin: auto;
 }
 
 .background {
@@ -22,7 +23,7 @@
 
 .cabecalho {
     box-sizing: border-box;
-    padding: 16px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
 }
@@ -35,8 +36,8 @@
 }
 
 .cabecalho .header-logo {
-    width: 105px;
-    height: 24px;
+    width: 120px;
+    height: 28px;
 }
 
 .span-hidden {
@@ -56,7 +57,7 @@
     display: flex;
     align-items: center;
     padding-left: 12px;
-    line-height: 24px;
+    line-height: 28px;
     text-decoration: none;
 }
 
@@ -100,6 +101,14 @@
 
 .local1, .lovebutton, .personbutton {
     margin-right: 20px;
+}
+
+.botaolocal, .personbutton {
+    fill: #053361;
+}
+
+.lovebutton {
+    fill: #e01f1f;
 }
 
 .search{
@@ -170,20 +179,20 @@
 }
 
 .title-section .title-container .title {
-    font-size: 76px;
+    font-size: 78px;
     letter-spacing: .3px;
     line-height: 76px;
     max-width: 600px;
-    padding: 0;
     color: #fff;
     margin: 0 0 6px;
+    margin-left: 28px;
     font-family: CarMaxSharpSansDisp-Bold, Frutiger, "‘Frutiger Linotype’", Univers, Calibri, "‘Gill Sans’", "‘Gill Sans MT’", "‘Myriad Pro’", Myriad, "‘DejaVu Sans Condensed’", "‘Liberation Sans’", "‘Nimbus Sans L’", Tahoma, Geneva, "‘Helvetica Neue’", Helvetica, Arial, sans-serif;
 }
 
 .title-section .title-container-end {
     text-align: left;
     color: #fff;
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 0;
     line-height: 31px;
 }
@@ -197,8 +206,48 @@
     margin-left: 0;
     padding: 0;
     width: 24px;
+    fill: #fff;
 }
 
+.title-section .title-container-end .title4 {
+    margin-left: 28px;
+}
+
+.title-section .title-container {
+    padding-top: 100px;
+}
+
+.container .botao-search {
+    align-items: center;
+    appearance: none;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-family: CarMaxSharpSansDisp-Bold, Frutiger, "‘Frutiger Linotype’", Univers, Calibri, "‘Gill Sans’", "‘Gill Sans MT’", "‘Myriad Pro’", Myriad, "‘DejaVu Sans Condensed’", "‘Liberation Sans’", "‘Nimbus Sans L’", Tahoma, Geneva, "‘Helvetica Neue’", Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    height: 36px;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    line-height: 36px;
+    min-width: 64px;
+    position: relative;
+    text-transform: uppercase;
+    user-select: none;
+    vertical-align: middle;
+    will-change: transform, opacity;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 2px;
+    outline: none;
+    overflow: hidden;
+    padding: 0px 16px;
+    text-decoration: none;
+    background-color: #ffd900;
+    color: #053361;
+    min-width: 236px;
+}
 
 
 
